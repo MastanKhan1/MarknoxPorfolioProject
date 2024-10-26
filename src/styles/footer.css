@@ -1,0 +1,41 @@
+
+.footer{
+    background-color: #FF921C;
+    color: white;
+    padding: 1% 3% 2%;
+}
+
+.footer-item{
+    display: flex;
+    margin:4rem auto 1rem;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.items a{
+    text-decoration: none;
+    color: white;
+}
+
+.copy-right{
+    text-align: center;
+}
+
+
+@media(max-width:650px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 3rem;
+        gap: 1;
+        font-size: 0.7rem;
+        transition:  1s;
+        gap: 0;
+    }
+    .copy-right{
+        font-size: 0.5rem;
+    }
+
+}
+

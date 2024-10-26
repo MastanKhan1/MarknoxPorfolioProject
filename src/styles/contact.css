@@ -1,0 +1,48 @@
+.contact{
+    margin: 2% 3%;
+}
+
+
+.contact h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ECA427;
+}
+
+.contact-container{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    margin-left: 32%;
+    gap: 0;
+}
+
+.contact-container div input, .contact-container div textarea, .contact-container div button{
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid #FF921C;
+    text-align: center;
+}
+
+.contact-container div button{
+    background-color: transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 1px solid #FF921C;
+    color: #ECA427;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact-container div button:hover{
+    background-color: #FF921C;
+    color: #fff;
+   
+}
+.contact-container div button:active{
+    color: black;
+    background-color: white;
+}
+
+
+
